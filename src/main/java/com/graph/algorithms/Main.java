@@ -11,7 +11,9 @@ public class Main {
         graph.addUndirectedEdge(3,0);
         graph.addUndirectedEdge(4,1);
 
-        DepthFirstSearch dfs = new DepthFirstSearch(graph);
-        dfs.run(0);
+//        DepthFirstSearch dfs = new DepthFirstSearch(graph);
+//        dfs.run(0);
+        BreadthFirstSearch bfs = new BreadthFirstSearch((graph));
+        bfs.run(0);
     }
 }
